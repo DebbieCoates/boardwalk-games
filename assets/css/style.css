@@ -1,5 +1,3 @@
-
-/* Google fonts import */
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap');
 
@@ -26,30 +24,60 @@ h3 {
     color: var(--primary-color);
 }
 
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
+
 .sub-heading-color {
     color: var(--highlight-color);
 }
 
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
 /* Navbar */
 
-#navbar{
-    background-color: var(--highlight-color);
+#navbar {
+    background-color: var(--primary-color);
 }
 
 #navbar .logo {
     width: 30px;
 }
 
-/* Grid visulisation CSS for testting */
+/* Header */
 
-/*.container, 
+#header .lead {
+    font-family: var(--secondary-font);
+}
+
+/* Services */
+
+#services .card-footer {
+    font-weight: bold;
+    color: var(--highlight-color);
+    background-color: transparent;
+}
+
+#services .card {
+    margin-bottom: 1.5rem;
+}
+
+/* grid visualisation CSS for testing */
+
+/* .container,
 .row {
     border: 2px solid black;
 }
 
-.col-12{
-border: 2px solid white;
-background-color: lightgray;
-}
-*/
+.col-12 {
+    border: 2px solid white;
+    background-color: lightgray;
+} */
